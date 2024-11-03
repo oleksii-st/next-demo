@@ -64,6 +64,10 @@ next-demo/
 └── package.json
 ```
 
+## Before Starting
+
+Cope `.env.example` as `.env
+
 ## Code Quality
 
 This project uses several tools to maintain code quality:
