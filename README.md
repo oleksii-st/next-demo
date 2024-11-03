@@ -31,21 +31,21 @@ yarn install
 - **Framework**: [Next.js](https://nextjs.org/) 15.0.2
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**:
-    - [Tailwind CSS](https://tailwindcss.com/)
-    - [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
-    - [tailwind-merge](https://github.com/dcastil/tailwind-merge)
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+  - [tailwind-merge](https://github.com/dcastil/tailwind-merge)
 - **UI Components**:
-    - [React](https://react.dev/) (Release Candidate)
-    - [Geist](https://github.com/vercel/geist-font) font
-    - [clsx](https://github.com/lukeed/clsx) for class name management
+  - [React](https://react.dev/) (Release Candidate)
+  - [Geist](https://github.com/vercel/geist-font) font
+  - [clsx](https://github.com/lukeed/clsx) for class name management
 
 ## Development Tools
 
 - **Linting**: ESLint with multiple plugins:
-    - eslint-plugin-import
-    - eslint-plugin-react
-    - typescript-eslint
-    - eslint-config-next
+  - eslint-plugin-import
+  - eslint-plugin-react
+  - typescript-eslint
+  - eslint-config-next
 - **Code Formatting**: Prettier
 - **Git Hooks**: Husky
 - **Staged Files Linting**: lint-staged
