@@ -28,14 +28,14 @@ yarn install
 
 ## Technology Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) 15.0.2
+- **Framework**: [Next.js](https://nextjs.org/) 15
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**:
   - [Tailwind CSS](https://tailwindcss.com/)
   - [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
   - [tailwind-merge](https://github.com/dcastil/tailwind-merge)
 - **UI Components**:
-  - [React](https://react.dev/) (Release Candidate)
+  - [React](https://react.dev/) 19
   - [Geist](https://github.com/vercel/geist-font) font
   - [clsx](https://github.com/lukeed/clsx) for class name management
 
