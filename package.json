@@ -28,7 +28,7 @@
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "tailwind-merge": "^2.5.4",
-    "typescript-eslint": "^8.14.0"
+    "typescript-eslint": "^8.15.0"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
