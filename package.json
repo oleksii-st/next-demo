@@ -21,7 +21,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-react": "^7.37.2",
     "geist": "^1.3.1",
-    "globals": "^15.12.0",
+    "globals": "^15.13.0",
     "husky": "^9.1.7",
     "next": "15.0.3",
     "prettier": "^3.3.3",
