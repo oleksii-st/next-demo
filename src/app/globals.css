@@ -109,7 +109,6 @@
       bottom: anchor(--active-tab bottom);
       left: anchor(--active-tab left);
       right: anchor(--active-tab right);
-      width: anchor(--active-tab width);
     }
   }
 }
