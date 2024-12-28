@@ -87,8 +87,19 @@
     }
 
     .tabs-list .tab[data-state='active'] {
-      anchor-name: --active-tab;
       @apply bg-transparent shadow-none;
+    }
+
+    .tabs-list:not(.tabs-list-hover) .tab[data-state='active'] {
+      anchor-name: --active-tab;
+    }
+
+    .tabs-list.tabs-list-hover:not(:has(.tab:hover)) .tab[data-state='active'] {
+      anchor-name: --active-tab;
+    }
+
+    .tabs-list.tabs-list-hover .tab:hover {
+      anchor-name: --active-tab;
     }
 
     .tabs-list::before {
