@@ -76,4 +76,29 @@
   .prose h6, .prose .h6 {
     @apply text-base sm:text-xl
   }
+
+  @supports (anchor-name: --test) {
+    .tabs-list {
+      @apply relative;
+    }
+
+    .tabs-list .tab {
+      @apply relative z-20;
+    }
+
+    .tabs-list .tab[data-state='active'] {
+      anchor-name: --active-tab;
+      @apply bg-transparent shadow-none;
+    }
+
+    .tabs-list::before {
+      content: "";
+      @apply absolute z-10 bg-white shadow rounded transition-all;
+      top: anchor(--active-tab top);
+      bottom: anchor(--active-tab bottom);
+      left: anchor(--active-tab left);
+      right: anchor(--active-tab right);
+      width: anchor(--active-tab width);
+    }
+  }
 }

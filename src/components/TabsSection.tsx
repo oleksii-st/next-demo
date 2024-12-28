@@ -4,17 +4,17 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 export function TabsSection() {
   return (
     <Tabs defaultValue="rabbit" className="container w-full sm:max-w-[800px] my-5 sm:my-8">
-      <TabsList className="flex w-full bg-[#f4f4f4]">
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="rabbit">
+      <TabsList className="flex w-full bg-[#f4f4f4] tabs-list">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="rabbit">
           Rabbit
         </TabsTrigger>
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="squirrel">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="squirrel">
           Squirrel
         </TabsTrigger>
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="hamster">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="hamster">
           Hamster
         </TabsTrigger>
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="kitten">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="kitten">
           Kitten
         </TabsTrigger>
       </TabsList>
