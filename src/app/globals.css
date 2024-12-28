@@ -109,6 +109,8 @@
       bottom: anchor(--active-tab bottom);
       left: anchor(--active-tab left);
       right: anchor(--active-tab right);
+      width: anchor-size(--active-tab width);
+      height: anchor-size(--active-tab height);
     }
   }
 }
