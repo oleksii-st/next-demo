@@ -2,6 +2,10 @@
 
 A modern Next.js application with TypeScript, Tailwind CSS, and robust development tooling.
 
+## Guides
+
+- [Building Smooth UI with CSS Anchor Positioning](https://oleksii-s.dev/blog/building-smooth-ui-with-css-anchor-positioning) - [PR](https://github.com/oleksii-st/next-demo/pull/35)
+
 ## Prerequisites
 
 - Node.js 20.x or later
