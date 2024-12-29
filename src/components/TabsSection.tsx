@@ -1,20 +1,49 @@
+'use client';
+
+import { useState } from 'react';
+
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { cn } from '@/utils/cn';
 
 export function TabsSection() {
+  const [animationTrigger, setAnimationTrigger] = useState<'click' | 'hover'>('click');
+  const toggleEffect = () => {
+    if (animationTrigger === 'click') {
+      setAnimationTrigger('hover');
+      return;
+    }
+
+    setAnimationTrigger('click');
+  };
+
   return (
     <Tabs defaultValue="rabbit" className="container w-full sm:max-w-[800px] my-5 sm:my-8">
-      <TabsList className="flex w-full bg-[#f4f4f4]">
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="rabbit">
+      <div className="flex mb-3 gap-4 items-center">
+        <button
+          className="py-2.5 px-5 shrink-0 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100"
+          onClick={toggleEffect}
+        >
+          Switch effect
+        </button>
+        Current animation trigger: {animationTrigger}
+      </div>
+
+      <TabsList
+        className={cn('flex w-full bg-[#f4f4f4] tabs-list', {
+          'tabs-list-hover': animationTrigger === 'hover',
+        })}
+      >
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="rabbit">
           Rabbit
         </TabsTrigger>
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="squirrel">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="squirrel">
           Squirrel
         </TabsTrigger>
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="hamster">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="hamster">
           Hamster
         </TabsTrigger>
-        <TabsTrigger className="w-[25%] data-[state=active]:bg-white" value="kitten">
+        <TabsTrigger className="w-[25%] data-[state=active]:bg-white tab" value="kitten">
           Kitten
         </TabsTrigger>
       </TabsList>
