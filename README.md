@@ -24,7 +24,6 @@ yarn install
 - `yarn start` - Start production server
 - `yarn lint` - Run ESLint checks
 - `yarn lint:fix` - Run ESLint and fix auto-fixable issues
-- `yarn format` - Format code using Prettier
 
 ## Technology Stack
 
