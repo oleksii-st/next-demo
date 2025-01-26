@@ -46,7 +46,6 @@ pnpm install
   - typescript-eslint
   - eslint-config-next
 - **Code Formatting**: Prettier
-- **Git Hooks**: Husky
 - **Staged Files Linting**: lint-staged
 
 ## Project Structure
@@ -74,10 +73,7 @@ This project uses several tools to maintain code quality:
 1. **TypeScript** for static type checking
 2. **ESLint** for code linting with custom rules
 3. **Prettier** for consistent code formatting
-4. **Husky** for git hooks
 5. **lint-staged** for running checks on staged files
-
-Pre-commit hooks are configured to automatically format code using Prettier.
 
 ## Build and Deployment
 
