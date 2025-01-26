@@ -5,7 +5,7 @@ A modern Next.js application with TypeScript, Tailwind CSS, and robust developme
 ## Prerequisites
 
 - Node.js 20.x or later
-- Yarn 4.5.1 (specified as package manager)
+- PNPM
 
 ## Getting Started
 
@@ -14,16 +14,16 @@ First, clone the repository and install dependencies:
 ```bash
 git clone https://github.com/oleksii-st/next-demo.git
 cd next-demo
-yarn install
+pnpm install
 ```
 
 ## Available Scripts
 
-- `yarn dev` - Start development server with Turbopack
-- `yarn build` - Create production build
-- `yarn start` - Start production server
-- `yarn lint` - Run ESLint checks
-- `yarn lint:fix` - Run ESLint and fix auto-fixable issues
+- `pnpm dev` - Start development server with Turbopack
+- `pnpm build` - Create production build
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint checks
+- `pnpm lint:fix` - Run ESLint and fix auto-fixable issues
 
 ## Technology Stack
 
@@ -84,11 +84,11 @@ Pre-commit hooks are configured to automatically format code using Prettier.
 To build the project for production:
 
 ```bash
-yarn build
+pnpm build
 ```
 
 To start the production server:
 
 ```bash
-yarn start
+pnpm start
 ```
