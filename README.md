@@ -73,7 +73,7 @@ This project uses several tools to maintain code quality:
 1. **TypeScript** for static type checking
 2. **ESLint** for code linting with custom rules
 3. **Prettier** for consistent code formatting
-5. **lint-staged** for running checks on staged files
+4. **lint-staged** for running checks on staged files
 
 ## Build and Deployment
 
