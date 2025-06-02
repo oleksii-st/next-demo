@@ -10,7 +10,7 @@
     "lint:fix": "prettier --write \"**/*.{ts,tsx,js,json,md}\" && eslint . --fix"
   },
   "dependencies": {
-    "@eslint/js": "^9.26.0",
+    "@eslint/js": "^9.28.0",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-tabs": "^1.1.12",
